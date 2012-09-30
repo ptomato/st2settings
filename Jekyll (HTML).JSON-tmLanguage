@@ -1,0 +1,10 @@
+{ "name": "Jekyll (HTML)",
+	"scopeName": "text.html.jekyll",
+	"fileTypes": ["html"],
+	"firstLineMatch": "---",
+	"patterns": [
+		{ "include": "text.jekyll" },
+		{ "include": "text.html.basic" }
+	],
+	"uuid": "a40f91df-8b00-42ff-8d69-e7fe6f6cdc69"
+}

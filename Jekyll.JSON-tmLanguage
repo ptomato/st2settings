@@ -1,0 +1,83 @@
+{ "name": "Jekyll",
+	"scopeName": "text.jekyll",
+	"fileTypes": ["md", "textile"],
+	"firstLineMatch": "---",
+	"patterns": [
+		{
+			"name": "comment.block.liquid",
+			"begin": "{% comment %}",
+			"end": "{% endcomment %}"
+		},
+		{
+			"name": "markup.other.output.liquid",
+			"begin": "{{",
+			"end": "}}",
+			"patterns": [
+				{ "include": "#standard_filters" },
+				{ "include": "#liquid_syntax" }
+			]
+		},
+		{
+			"name": "markup.other.tag.liquid",
+			"begin": "{%",
+			"end": "%}",
+			"patterns": [
+				{ "include": "#standard_tags" },
+				{ "include": "#liquid_syntax" }
+			]
+		},
+		{
+			"name": "meta.config.jekyll",
+			"begin": "---",
+			"end": "---",
+			"patterns": [
+				{ "include": "source.yaml" }
+			]
+		}
+	],
+	"repository": {
+		"standard_filters": {
+			"patterns": [
+				{
+					"name": "keyword.control.filter.jekyll",
+					"match": "(date|capitalize|downcase|upcase|first|last|join|sort|map|size|escape|escape_once|strip_html|strip_newlines|newline_to_br|replace|replace_first|remove|remove_first|truncate|truncatewords|prepend|append|minus|plus|times|divided_by|split|modulo|date_to_xmlschema|date_to_string|date_to_long_string|xml_escape|cgi_escape|number_of_words|array_to_sentence_string|textilize|markdownify)\\b"
+				}
+			]
+		},
+		"standard_tags": {
+			"patterns": [
+				{
+					"name": "keyword.control.tag-name.jekyll",
+					"match": "\\b(for|endfor|if|else|elsif|endif|cycle|unless|endunless|assign|capture|endcapture|include|tablerow|endtablerow|case|when|endcase|raw|endraw)\\b"
+				},
+				{
+					"name": "keyword.operator.liquid",
+					"match": "\\b(and|or|not|contains|in|limit|offset|reversed)\\b"
+				}
+			]
+		},
+		"liquid_syntax": {
+			"patterns": [
+				{
+					"name": "string.quoted.single.liquid",
+					"begin": "'",
+					"end": "'"
+				},
+				{
+					"name": "string.quoted.double.liquid",
+					"begin": "\"",
+					"end": "\""
+				},
+				{
+					"name": "constant.numeric.liquid",
+					"match": "\\d+"
+				},
+				{
+					"name": "constant.language.liquid",
+					"match": "\\b(empty|null|true|false|forloop)\\b"
+				}
+			]
+		}
+	},
+	"uuid": "3fd8426a-5a97-4d4b-abd8-782d9d5d4409"
+}

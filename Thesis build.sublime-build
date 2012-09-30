@@ -1,0 +1,5 @@
+{
+	"cmd": ["make"],
+	"working_dir": "/Users/fliep/Dropbox/Work files/Writing/201303 PhD thesis",
+	"path": "/Library/Frameworks/Python.framework/Versions/Current/bin:/usr/bin:/Users/fliep/.local/bin:/usr/texbin"
+}
