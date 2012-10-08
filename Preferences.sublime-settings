@@ -1,12 +1,9 @@
 {
 	"color_scheme": "Packages/User/Tango.tmTheme",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"open_files_in_new_window": false,
 	"rulers":
 	[
 		80
-	]
+	],
+	"auto_complete_commit_on_tab": true
 }
