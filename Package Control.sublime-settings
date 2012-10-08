@@ -1,0 +1,12 @@
+{
+	"auto_upgrade_last_run": 1349683809,
+	"installed_packages":
+	[
+		"Goto Documentation",
+		"Goto Symbol",
+		"HexViewer",
+		"Package Control",
+		"SublimeLinter",
+		"TrailingSpaces"
+	]
+}
