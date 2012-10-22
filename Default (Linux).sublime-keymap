@@ -1,0 +1,32 @@
+[
+  // Move past autocompleted braces
+  { 
+    "keys": ["alt+space"],
+    "command": "move",
+    "args": {"by": "characters", "forward": true},
+    "context":
+    [
+      { 
+        "key": "following_text",
+        "operator": "regex_contains",
+        "operand": "^[)'\"\\]]",
+        "match_all": true 
+      },
+      {
+        "key": "auto_complete_visible",
+        "operator": "equal",
+        "operand": false 
+      }
+    ]  
+  },
+  // Switch Ctrl+R and Ctrl+B
+  {
+    "keys": ["ctrl+b"],
+    "command": "show_overlay",
+    "args": {"overlay": "goto", "text": "@"}
+  },
+  {
+    "keys": ["ctrl+r"],
+    "command": "build"
+  }
+]
