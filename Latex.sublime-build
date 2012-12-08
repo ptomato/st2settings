@@ -1,7 +1,8 @@
 {
 	"cmd": ["texify", "--pdf", "--engine=xetex", "--batch",
-		"--tex-option=-synctex=1", "$file_name", "&&", "texworks",
-		"$file_base_name.pdf"],
+		"--tex-option=-synctex=1", "$file_name", "&&",
+		"E:\\Portable Program Files\\SumatraPDF\\SumatraPDF.exe",
+		"-reuse-instance", "$file_base_name.pdf"],
 	"shell": true,
 	"selector": "source.latex",
 	"file_regex": "^! ()()()(.*)$"

@@ -48,7 +48,7 @@
 				<key>lineHighlight</key>
 				<string>#555753</string> <!--current-line: aluminium5-->
 				<key>selection</key>
-				<string>#888a85</string> <!--selection: aluminium4-->
+				<string>#555753</string> <!--selection: aluminium5-->
 				<key>findHighlight</key>
 				<string>#4e9a06</string> <!--search-match: chameleon3-->
 				<key>findHighlightForeground</key>

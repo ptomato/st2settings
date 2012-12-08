@@ -1,5 +1,6 @@
 {
 	"cmd": ["bash.exe --login -c 'cd /c/Users/chimento/Dropbox/Work\\ files/Writing/201303\\ PhD\\ thesis; make'"],
 	"path": "E:\\MinGW\\msys\\1.0\\bin;C:\\Program Files (x86)\\MiKTeX 2.9\\miktex\\bin;E:\\Portable Program Files\\InkscapePortable\\App\\Inkscape;C:\\Users\\chimento\\AppData\\Local\\Apps\\Enthought Python\\7.3-x86",
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
 	"shell": true
 }
