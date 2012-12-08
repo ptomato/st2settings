@@ -1,5 +1,6 @@
 {
 	"sublimelinter_delay": 0.5,
 	"sublimelinter_gutter_marks": true,
-	"sublimelinter_notes": true
+	"sublimelinter_notes": true,
+	"pyflakes_ignore": ["_", "N_"]
 }
