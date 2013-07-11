@@ -1,7 +1,7 @@
 [
   // Move past autocompleted braces
   { 
-    "keys": ["alt+space"],
+    "keys": ["ctrl+space"],
     "command": "move",
     "args": {"by": "characters", "forward": true},
     "context":
