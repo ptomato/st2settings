@@ -3,5 +3,23 @@
 	"sublimelinter_gutter_marks": true,
 	"sublimelinter_notes": true,
 	"sublimelinter_gutter_marks_theme": "alpha",
-	"pyflakes_ignore": ["_", "N_"]
+	"pyflakes_ignore": ["_", "N_"],
+	"sublimelinter_syntax_map": {
+		"JavaScript (GJS)": "javascript"
+	},
+	"jshint_options": {
+		"esnext": true,
+		"evil": false,
+		"indent": 4,
+		"moz": true,
+		"multistr": true,
+		"sub": true,
+		"trailing": true,
+		"undef": true,
+
+		"predef": [
+			"imports",
+			"print"
+		]
+	}
 }
