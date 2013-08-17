@@ -19,7 +19,8 @@
 
 		"predef": [
 			"imports",
-			"print"
+			"print",
+			"ARGV"
 		]
 	}
 }
