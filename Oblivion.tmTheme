@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<!-- Tango Palette
-<color name="butter1"                     value="#fce94f"/>
-<color name="butter2"                     value="#edd400"/>
-<color name="butter3"                     value="#c4a000"/>
-<color name="chameleon1"                  value="#8ae234"/>
-<color name="chameleon2"                  value="#73d216"/>
-<color name="chameleon3"                  value="#4e9a06"/>
-<color name="orange1"                     value="#fcaf3e"/>
-<color name="orange2"                     value="#f57900"/>
-<color name="orange3"                     value="#ce5c00"/>
-<color name="skyblue1"                    value="#729fcf"/>
-<color name="skyblue2"                    value="#3465a4"/>
-<color name="skyblue3"                    value="#204a87"/>
-<color name="plum1"                       value="#ad7fa8"/>
-<color name="plum2"                       value="#75507b"/>
-<color name="plum3"                       value="#5c3566"/>
-<color name="chocolate1"                  value="#e9b96e"/>
-<color name="chocolate2"                  value="#c17d11"/>
-<color name="chocolate3"                  value="#8f5902"/>
-<color name="scarletred1"                 value="#ef2929"/>
-<color name="scarletred2"                 value="#cc0000"/>
-<color name="scarletred3"                 value="#a40000"/>
-<color name="aluminium1"                  value="#eeeeec"/>
-<color name="aluminium2"                  value="#d3d7cf"/>
-<color name="aluminium3"                  value="#babdb6"/>
-<color name="aluminium4"                  value="#888a85"/>
-<color name="aluminium5"                  value="#555753"/>
-<color name="aluminium6"                  value="#2e3436"/>-->
 <dict>
+	<key>comment</key>
+	<string>aluminium6  =#2e3436</string>
 	<key>name</key>
 	<string>Oblivion</string>
 	<key>settings</key>
@@ -37,37 +11,34 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#2e3436</string> <!--text: aluminium6-->
-				<key>caret</key>
-				<string>#d3d7cf</string> <!--cursor: aluminium2-->
-				<key>foreground</key>
-				<string>#d3d7cf</string> <!--text: aluminium2-->
-				<key>invisibles</key>
-				<string>#888a85</string> <!--draw-spaces: aluminium4-->
-				<key>lineHighlight</key>
-				<string>#555753</string> <!--current-line: aluminium5-->
-				<key>selection</key>
-				<string>#555753</string> <!--selection: aluminium5-->
-				<key>findHighlight</key>
-				<string>#4e9a06</string> <!--search-match: chameleon3-->
-				<key>findHighlightForeground</key>
-				<string>#eeeeec</string> <!--search-match: aluminium1-->
-				<key>selectionBorder</key>
-				<string>#eeeeec</string> <!--selection: aluminium1-->
 				<key>activeGuide</key>
-				<string>#9D550FB0</string> <!--TODO-->
-
-				<key>bracketsForeground</key>
-				<string>#c17d11</string> <!--bracket-match: chocolate2-->
-				<key>bracketsOptions</key>
-				<string>underline</string>
-
+				<string>#9D550FB0</string>
+				<key>background</key>
+				<string>#2e3436</string>
 				<key>bracketContentsForeground</key>
-				<string>#c17d11</string> <!--bracket-match: chocolate2-->
+				<string>#c17d11</string>
 				<key>bracketContentsOptions</key>
 				<string>stippled_underline</string>
-
+				<key>bracketsForeground</key>
+				<string>#c17d11</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
+				<key>caret</key>
+				<string>#d3d7cf</string>
+				<key>findHighlight</key>
+				<string>#4e9a06</string>
+				<key>findHighlightForeground</key>
+				<string>#eeeeec</string>
+				<key>foreground</key>
+				<string>#d3d7cf</string>
+				<key>invisibles</key>
+				<string>#888a85</string>
+				<key>lineHighlight</key>
+				<string>#555753</string>
+				<key>selection</key>
+				<string>#555753</string>
+				<key>selectionBorder</key>
+				<string>#eeeeec</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
 			</dict>
@@ -82,7 +53,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#888a85</string> <!--def:comment: aluminium4-->
+				<string>#888a85</string>
 			</dict>
 		</dict>
 		<dict>
@@ -93,7 +64,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#edd400</string> <!--def:string: butter2-->
+				<string>#edd400</string>
 			</dict>
 		</dict>
 		<dict>
@@ -104,10 +75,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ce5c00</string> <!--def:floating-point: orange3-->
+				<string>#ce5c00</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -118,7 +88,7 @@
 				<key>fontStyle</key>
 				<string>italic bold</string>
 				<key>foreground</key>
-				<string>#ce5c00</string> <!--def:special-constant: orange3-->
+				<string>#ce5c00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -128,10 +98,10 @@
 			<string>constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#orange3</string> <!--def:special-char: orange3-->
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#orange3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -144,7 +114,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#729fcf</string> <!--skyblue1: identifier-->
+				<string>#729fcf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,10 +124,10 @@
 			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#d3d7cf</string> <!--text: aluminum2-->
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#d3d7cf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -167,10 +137,10 @@
 			<string>keyword, keyword.operator.logical.python, keyword.operator.liquid</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#white</string> <!--#white: statement-->
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#white</string>
 			</dict>
 		</dict>
 		<dict>
@@ -183,7 +153,7 @@
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#8ae234</string> <!--chameleon1: type-->
+				<string>#8ae234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -196,7 +166,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#8ae234</string> <!--chameleon1: type-->
+				<string>#8ae234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -209,7 +179,7 @@
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#8ae234</string> <!--chameleon1: type-->
+				<string>#8ae234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -222,7 +192,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#8ae234</string> <!--chameleon1: type-->
+				<string>#8ae234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -235,7 +205,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#729fcf</string> <!--skyblue1: identifier-->
+				<string>#729fcf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -248,7 +218,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#8f5902</string> <!--chocolate3-->
+				<string>#8f5902</string>
 			</dict>
 		</dict>
 		<dict>
@@ -261,7 +231,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#729fcf</string> <!--skyblue1-->
+				<string>#729fcf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -274,7 +244,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#4e9a06</string> <!--chameleon3: xml:tags-->
+				<string>#4e9a06</string>
 			</dict>
 		</dict>
 		<dict>
@@ -287,7 +257,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#babdb6</string> <!--aluminium3-->
+				<string>#babdb6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -300,7 +270,7 @@
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#c4a000</string> <!--butter3-->
+				<string>#c4a000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -313,7 +283,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#c4a000</string> <!--butter3-->
+				<string>#c4a000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -326,7 +296,7 @@
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#c4a000</string> <!--butter3-->
+				<string>#c4a000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -337,11 +307,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#cc0000</string> <!--scarletred2: error-->
+				<string>#cc0000</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#eeeeec</string> <!--error: aluminium1-->
+				<string>#eeeeec</string>
 			</dict>
 		</dict>
 		<dict>
@@ -352,9 +322,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#cc0000</string> <!--scarletred2: error-->
+				<string>#cc0000</string>
 				<key>foreground</key>
-				<string>#eeeeec</string> <!--error: aluminium1-->
+				<string>#eeeeec</string>
 			</dict>
 		</dict>
 		<dict>
@@ -367,10 +337,9 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#4e9a06</string> <!--chameleon3: js:object-->
+				<string>#4e9a06</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>diff.header</string>
@@ -378,10 +347,10 @@
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#8ae234</string> <!--chameleon1: diff:location-->
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#8ae234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -392,7 +361,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#729fcf</string> <!--skyblue1: diff:removed-line-->
+				<string>#729fcf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -403,7 +372,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#edd400</string> <!--butter2: diff:added-line-->
+				<string>#edd400</string>
 			</dict>
 		</dict>
 		<dict>
@@ -414,17 +383,16 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ad7fa8</string> <!--plum1: diff:changed-line-->
+				<string>#ad7fa8</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>scope</key>
 			<string>constant.numeric.line-number.find-in-files - match</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FFA0</string> <!--TODO-->
+				<string>#AE81FFA0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -433,7 +401,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6DB74</string> <!--TODO-->
+				<string>#E6DB74</string>
 			</dict>
 		</dict>
 		<dict>
@@ -441,14 +409,12 @@
 			<string>markup.other</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#8f5902</string> <!-- chocolate3: preprocessor -->
 				<key>background</key>
-				<string>##888a85</string> <!-- aluminium4 -->
+				<string>##888a85</string>
+				<key>foreground</key>
+				<string>#8f5902</string>
 			</dict>
 		</dict>
-
-		<!-- SublimeLinter -->
 		<dict>
 			<key>name</key>
 			<string>SublimeLinter Annotations</string>
@@ -470,7 +436,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ef2929</string> <!-- scarletred1 -->
+				<string>#ef2929</string>
 				<key>foreground</key>
 				<string>#ef2929</string>
 			</dict>
@@ -483,7 +449,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#a40000</string> <!-- scarletred3 -->
+				<string>#a40000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -494,7 +460,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#fcaf3e</string> <!-- orange1 -->
+				<string>#fcaf3e</string>
 				<key>foreground</key>
 				<string>#fcaf3e</string>
 			</dict>
@@ -507,7 +473,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ce5c00</string> <!-- orange3 -->
+				<string>#ce5c00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -518,7 +484,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#fce94f</string> <!-- butter1 -->
+				<string>#fce94f</string>
 				<key>foreground</key>
 				<string>#fce94f</string>
 			</dict>
@@ -531,10 +497,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#c4a000</string> <!-- butter3 -->
+				<string>#c4a000</string>
 			</dict>
 		</dict>
-
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
