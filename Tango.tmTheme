@@ -98,6 +98,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>String substitution</string>
+			<key>scope</key>
+			<string>string.interpolated</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#3465a4</string> <!-- skyblue2 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
@@ -145,6 +158,19 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#729fcf</string> <!--skyblue1: identifier-->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in variable</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#c4a000</string> <!-- butter3 -->
 			</dict>
 		</dict>
 		<dict>
@@ -445,6 +471,16 @@
 				<string>#8f5902</string> <!-- chocolate3: preprocessor -->
 				<key>background</key>
 				<string>#eeeeec</string> <!-- aluminium1 -->
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>entity.name.function.rule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ce5c00</string> <!-- orange3 -->
 			</dict>
 		</dict>
 
