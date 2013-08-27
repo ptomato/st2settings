@@ -4,6 +4,7 @@
 	[
 		"AAAPackageDev",
 		"Git",
+		"GitGutter",
 		"Goto Documentation",
 		"HexViewer",
 		"LineEndings",
