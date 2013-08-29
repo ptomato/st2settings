@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+const ${1:ClassName} = new Lang.Class({
+    Name: "${1}",
+    GTypeName: "${2:$1}",
+    Extends: ${3},
+
+    _init: function(props) {
+        this.parent(props);
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
