@@ -20,6 +20,8 @@
 		"predef": [
 			"imports",
 			"print",
+			"printerr",
+			"window",
 			"ARGV"
 		]
 	}
