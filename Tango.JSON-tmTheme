@@ -302,56 +302,24 @@
             }
         },
         {
-            "name": "SublimeLinter Annotations",
-            "scope": "sublimelinter.notes",
+            "name": "SublimeLinter Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
             "settings": {
-                "background": "#FFFFAA",
                 "foreground": "#FFFFFF"
             }
         },
         {
-            "name": "SublimeLinter Error Outline",
-            "scope": "sublimelinter.outline.illegal",
+            "name": "SublimeLinter Error",
+            "scope": "sublimelinter.mark.error",
             "settings": {
-                "background": "#ef2929",
                 "foreground": "#ef2929"
             }
         },
         {
-            "name": "SublimeLinter Error Underline",
-            "scope": "sublimelinter.underline.illegal",
+            "name": "SublimeLinter Warning",
+            "scope": "sublimelinter.mark.warning",
             "settings": {
-                "background": "#a40000"
-            }
-        },
-        {
-            "name": "SublimeLinter Warning Outline",
-            "scope": "sublimelinter.outline.warning",
-            "settings": {
-                "background": "#fcaf3e",
                 "foreground": "#fcaf3e"
-            }
-        },
-        {
-            "name": "SublimeLinter Warning Underline",
-            "scope": "sublimelinter.underline.warning",
-            "settings": {
-                "background": "#ce5c00"
-            }
-        },
-        {
-            "name": "SublimeLinter Violation Outline",
-            "scope": "sublimelinter.outline.violation",
-            "settings": {
-                "background": "#fce94f",
-                "foreground": "#fce94f"
-            }
-        },
-        {
-            "name": "SublimeLinter Violation Underline",
-            "scope": "sublimelinter.underline.violation",
-            "settings": {
-                "background": "#c4a000"
             }
         }
     ],

@@ -10,6 +10,9 @@
 		"LineEndings",
 		"Package Control",
 		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
 		"TrailingSpaces"
 	]
 }

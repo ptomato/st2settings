@@ -452,87 +452,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Annotations</string>
+			<string>SublimeLinter Gutter Mark</string>
 			<key>scope</key>
-			<string>sublimelinter.notes</string>
+			<string>sublimelinter.gutter-mark</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#FFFFAA</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Error Outline</string>
+			<string>SublimeLinter Error</string>
 			<key>scope</key>
-			<string>sublimelinter.outline.illegal</string>
+			<string>sublimelinter.mark.error</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#ef2929</string>
 				<key>foreground</key>
 				<string>#ef2929</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Error Underline</string>
+			<string>SublimeLinter Warning</string>
 			<key>scope</key>
-			<string>sublimelinter.underline.illegal</string>
+			<string>sublimelinter.mark.warning</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#a40000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#fcaf3e</string>
 				<key>foreground</key>
 				<string>#fcaf3e</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#ce5c00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#fce94f</string>
-				<key>foreground</key>
-				<string>#fce94f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#c4a000</string>
 			</dict>
 		</dict>
 	</array>
