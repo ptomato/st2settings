@@ -9,10 +9,12 @@
 		"HexViewer",
 		"LineEndings",
 		"Package Control",
+		"Pretty JSON",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
+		"SublimeLinter-json",
 		"TrailingSpaces"
 	]
 }
