@@ -11,10 +11,14 @@
 		"Package Control",
 		"Pretty JSON",
 		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-clang",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
 		"TrailingSpaces"
 	]
 }

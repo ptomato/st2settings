@@ -7,6 +7,25 @@
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
+            "annotations": {
+                "@disable": false,
+                "args": [],
+                "errors": [],
+                "excludes": [],
+                "warnings": [
+                    "TODO",
+                    "README",
+                    "FIXME",
+                    "COMPAT"
+                ]
+            },
+            "clang": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "extra_flags": "",
+                "include_dirs": []
+            },
             "csslint": {
                 "@disable": false,
                 "args": [],
@@ -33,6 +52,19 @@
                 "excludes": []
             },
             "json": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "pep8": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore": "",
+                "max-line-length": null,
+                "select": ""
+            },
+            "pyflakes": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
