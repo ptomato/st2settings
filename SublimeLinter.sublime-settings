@@ -1,5 +1,6 @@
 {
     "user": {
+        "@python": 2.7,
         "debug": false,
         "delay": 0.25,
         "error_color": "D02000",
