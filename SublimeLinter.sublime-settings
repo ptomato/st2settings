@@ -38,15 +38,17 @@
                 "warnings": ""
             },
             "flake8": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
+                "builtins": "_,N_",
                 "excludes": [],
                 "ignore": [
-                    "_",
-                    "N_"
+                    "E127",
+                    "E128",
+                    "E501"
                 ],
                 "max-complexity": -1,
-                "max-line-length": null,
+                "max-line-length": 120,
                 "select": ""
             },
             "jshint": {
@@ -63,7 +65,7 @@
                 "@disable": false,
                 "args": [],
                 "excludes": [],
-                "ignore": "",
+                "ignore": "E127,E128,E129,E501",
                 "max-line-length": null,
                 "select": ""
             },
