@@ -87,7 +87,9 @@
         },
         "python_paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/Users/fliep/Library/Enthought/Canopy_32bit/User/bin/"
+            ],
             "windows": []
         },
         "rc_search_limit": 3,
