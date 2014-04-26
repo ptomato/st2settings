@@ -28,5 +28,16 @@
   {
     "keys": ["ctrl+r"],
     "command": "build"
+  },
+  // Add EOL semicolon and colon macros
+  {
+    "keys": ["ctrl+;"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/EOL Semicolon.sublime-macro"}
+  },
+  {
+    "keys": ["ctrl+,"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/EOL Comma.sublime-macro"}
   }
 ]

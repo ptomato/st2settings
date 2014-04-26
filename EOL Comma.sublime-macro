@@ -1,0 +1,25 @@
+[
+	{
+		"command": "toggle_bookmark"
+	},
+	{
+		"args":
+		{
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": ","
+		},
+		"command": "insert"
+	},
+	{
+		"command": "prev_bookmark"
+	},
+	{
+		"command": "toggle_bookmark"
+	}
+]
