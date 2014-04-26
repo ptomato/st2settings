@@ -11,7 +11,9 @@
             "annotations": {
                 "@disable": false,
                 "args": [],
-                "errors": [],
+                "errors": [
+                    "FIXME"
+                ],
                 "excludes": [],
                 "warnings": [
                     "TODO",
