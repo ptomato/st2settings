@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"AAAPackageDev",
+		"Autotools",
 		"Git",
 		"GitGutter",
 		"Goto Documentation",
