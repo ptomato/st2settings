@@ -54,10 +54,7 @@
             },
             "jshint": {
                 "@disable": false,
-                "args": [
-                    "--config",
-                    "/Users/fliep/.jshintrc"
-                ],
+                "args": [],
                 "excludes": []
             },
             "json": {
