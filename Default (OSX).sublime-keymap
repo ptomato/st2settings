@@ -1,7 +1,7 @@
 [
 	{ "keys": ["super+ctrl+r"], "command": "exec", "args": {"kill": true} },
 	{ "keys": ["super+b"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
-	{ "keys": ["super+r"], "command": "build" },
+	{ "keys": ["super+r"], "command": "build", "args": {} },
 
     { "keys": ["super+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["super+down"], "command": "select_lines", "args": {"forward": true} },
