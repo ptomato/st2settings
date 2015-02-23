@@ -321,6 +321,36 @@
             "settings": {
                 "foreground": "#fcaf3e"
             }
+        },
+        {
+            "name": "Italic",
+            "scope": "markup.italic",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Bold",
+            "scope": "markup.bold",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Preformatted",
+            "scope": "markup.raw",
+            "settings": {
+                "foreground": "#204a87",
+                "background": "#eeeeec"
+            }
+        },
+        {
+            "name": "Heading",
+            "scope": "markup.heading",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#8f5902"
+            }
         }
     ],
     "uuid": "D8D5E82E-3D5B-46B5-B38E-8C841C21347D"
