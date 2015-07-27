@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+const Lang = imports.lang;
+]]></content>
+    <tabTrigger>lang</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
