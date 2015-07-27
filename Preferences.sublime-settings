@@ -1,5 +1,34 @@
 {
 	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*~",
+		"*.lo",
+		"*.Po",
+		"*.Plo",
+		"*.gcda",
+		"*.gcno",
+		"ar-lib",
+		"aclocal.m4",
+		"config.guess",
+		"config.h",
+		"config.h.in",
+		"config.log",
+		"config.status",
+		"config.sub",
+		"configure",
+		"depcomp",
+		"install-sh",
+		"libtool",
+		"ltmain.sh",
+		"missing",
+		"stamp-*",
+		"autom4te.cache/",
+		"_coverage/",
+		"coverage/",
+		"node_modules/",
+		".sass-cache/"
+	],
 	"color_scheme": "Packages/User/Tango.tmTheme",
 	"ignored_packages":
 	[
