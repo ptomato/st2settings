@@ -34,6 +34,11 @@
 	[
 		"Markdown"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"open_files_in_new_window": false,
 	"rulers":
 	[
