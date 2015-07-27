@@ -1,6 +1,10 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/User/Tango.tmTheme",
+	"ignored_packages":
+	[
+		"Markdown"
+	],
 	"open_files_in_new_window": false,
 	"rulers":
 	[
