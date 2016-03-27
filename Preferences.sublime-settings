@@ -30,6 +30,7 @@
 		".sass-cache/"
 	],
 	"color_scheme": "Packages/User/Tango.tmTheme",
+	"font_face": "Hack",
 	"ignored_packages":
 	[
 		"Markdown"
