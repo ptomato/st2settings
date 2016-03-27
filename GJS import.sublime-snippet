@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+const $1 = imports.$2.${1/^(.)/\L\1/};
+]]></content>
+    <tabTrigger>import</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
