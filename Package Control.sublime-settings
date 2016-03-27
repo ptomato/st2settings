@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AAAPackageDev",
 		"Autotools",
 		"GitGutter",
 		"GitSavvy",
@@ -16,6 +15,7 @@
 		"MarkdownEditing",
 		"Oblivion Color Scheme",
 		"Package Control",
+		"PackageDev",
 		"Pretty JSON",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
