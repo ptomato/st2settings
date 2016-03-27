@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-const Lang = imports.lang;
+const ${1:Lang} = imports.${1/^(.)/\L\1/};
 ]]></content>
     <tabTrigger>lang</tabTrigger>
     <scope>source.js</scope>
