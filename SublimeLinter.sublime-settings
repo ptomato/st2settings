@@ -38,7 +38,7 @@
                 "warnings": ""
             },
             "flake8": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
                 "builtins": "_,N_",
                 "excludes": [],
@@ -71,7 +71,7 @@
                 "strict": true
             },
             "pep8": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": [],
                 "ignore": "E127,E128,E129,E501",
