@@ -7,8 +7,8 @@
 	[
 		"AAAPackageDev",
 		"Autotools",
-		"Git",
 		"GitGutter",
+		"GitSavvy",
 		"HexViewer",
 		"HTML-CSS-JS Prettify",
 		"LineEndings",
