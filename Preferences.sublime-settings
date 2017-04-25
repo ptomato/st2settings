@@ -29,6 +29,7 @@
 		"node_modules/",
 		".sass-cache/"
 	],
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Tango.tmTheme",
 	"font_face": "Hack",
 	"ignored_packages":
@@ -40,11 +41,17 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"material_theme_accent_red": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
 	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		80
 	],
-	"theme": "Piatto Light.sublime-theme",
+	"theme": "Material-Theme-Lighter.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
