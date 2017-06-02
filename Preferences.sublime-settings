@@ -34,7 +34,8 @@
 	"font_face": "Hack",
 	"ignored_packages":
 	[
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
