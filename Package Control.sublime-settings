@@ -23,7 +23,6 @@
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-clang",
 		"SublimeLinter-csslint",
-		"SublimeLinter-flake8",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",

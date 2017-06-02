@@ -37,21 +37,6 @@
                 "ignore": "",
                 "warnings": ""
             },
-            "flake8": {
-                "@disable": false,
-                "args": [],
-                "builtins": "_,N_",
-                "excludes": [],
-                "ignore": [
-                    "E127",
-                    "E128",
-                    "E501"
-                ],
-                "jobs": "1",
-                "max-complexity": -1,
-                "max-line-length": 120,
-                "select": ""
-            },
             "jscs": {
                 "@disable": false,
                 "args": [
@@ -71,7 +56,7 @@
                 "strict": true
             },
             "pep8": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
                 "excludes": [],
                 "ignore": "E127,E128,E129,E501",
@@ -79,7 +64,7 @@
                 "select": ""
             },
             "pyflakes": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
                 "excludes": []
             },
