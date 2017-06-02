@@ -63,6 +63,8 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#3465a4</string>
 			</dict>
@@ -71,7 +73,7 @@
 			<key>name</key>
 			<string>String substitution</string>
 			<key>scope</key>
-			<string>string.interpolated</string>
+			<string>string.interpolated, meta.template.expression</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -119,15 +121,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Variable / Member</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, meta.property.object</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#729fcf</string>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function call</string>
+			<key>scope</key>
+			<string>variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#555753</string>
 			</dict>
 		</dict>
 		<dict>
@@ -160,7 +175,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.text.js</string>
+			<string>keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.text.js, keyword.operator.new.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -186,7 +201,7 @@
 			<key>name</key>
 			<string>Storage type</string>
 			<key>scope</key>
-			<string>storage.type</string>
+			<string>storage.type, keyword.operator.word.cast.c++</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -296,20 +311,20 @@
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#c4a000</string>
+				<string>#ce5c00</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Library class/type</string>
 			<key>scope</key>
-			<string>support.type, support.class</string>
+			<string>support.type, support.class, support.module</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#c4a000</string>
+				<string>#ce5c00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -322,7 +337,7 @@
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#c4a000</string>
+				<string>#ce5c00</string>
 			</dict>
 		</dict>
 		<dict>

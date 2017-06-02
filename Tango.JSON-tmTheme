@@ -60,12 +60,13 @@
             "name": "String",
             "scope": "string",
             "settings": {
+                "fontStyle": "",
                 "foreground": "#3465a4"
             }
         },
         {
             "name": "String substitution",
-            "scope": "string.interpolated",
+            "scope": "string.interpolated, meta.template.expression",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#3465a4"
@@ -95,11 +96,19 @@
             }
         },
         {
-            "name": "Variable",
-            "scope": "variable",
+            "name": "Variable / Member",
+            "scope": "variable, meta.property.object",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#729fcf"
+                "foreground": "#000000"
+            }
+        },
+        {
+            "name": "Function call",
+            "scope": "variable.function",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#555753"
             }
         },
         {
@@ -120,7 +129,7 @@
         },
         {
             "name": "Keyword",
-            "scope": "keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.text.js",
+            "scope": "keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.text.js, keyword.operator.new.js",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#a40000"
@@ -136,7 +145,7 @@
         },
         {
             "name": "Storage type",
-            "scope": "storage.type",
+            "scope": "storage.type, keyword.operator.word.cast.c++",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#4e9a06"
@@ -203,15 +212,15 @@
             "scope": "support.constant",
             "settings": {
                 "fontStyle": "bold italic",
-                "foreground": "#c4a000"
+                "foreground": "#ce5c00"
             }
         },
         {
             "name": "Library class/type",
-            "scope": "support.type, support.class",
+            "scope": "support.type, support.class, support.module",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#c4a000"
+                "foreground": "#ce5c00"
             }
         },
         {
@@ -219,7 +228,7 @@
             "scope": "support.variable, support.other",
             "settings": {
                 "fontStyle": "bold italic",
-                "foreground": "#c4a000"
+                "foreground": "#ce5c00"
             }
         },
         {
