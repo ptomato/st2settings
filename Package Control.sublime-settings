@@ -27,6 +27,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
+		"SublimeLinter-pyyaml",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"Syntax Highlighting for Sass",
