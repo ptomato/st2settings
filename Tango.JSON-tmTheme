@@ -129,7 +129,7 @@
         },
         {
             "name": "Keyword",
-            "scope": "keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.text.js, keyword.operator.new.js",
+            "scope": "keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.word",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#a40000"

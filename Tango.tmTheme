@@ -175,7 +175,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.text.js, keyword.operator.new.js</string>
+			<string>keyword, keyword.operator.logical.python, keyword.operator.liquid, keyword.operator.word</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
