@@ -1257,22 +1257,17 @@ contexts:
       push:
         - meta_scope: meta.function-call.method.js
         - include: function-call-params
-    - match: \b(asin|acos|atan2?|abs|ceil|cos|exp|floor|log|min|max|pow|round|random|sin|sqrt|tan)\b(?=\()
-      scope: support.function.math.js
-      push:
-        - meta_scope: meta.function-call.method.js
-        - include: function-call-params
     - match: \b(apply|bind|call|every|filter|forEach|map|reduce(Right)?|some)\b(?=\()
       scope: support.function.functional.js
       push:
         - meta_scope: meta.function-call.method.js
         - include: function-call-params
-    - match: \b(create|definePropert(y|ies)|freeze|get(OwnProperty(Descriptor|Names)|PrototypeOf)|hasOwnProperty|is(Array|Extensible|Frozen|Generator|Integer|PrototypeOf|Sealed)?|keys|preventExtensions|propertyIsEnumerable|seal|__(define[GS]etter|lookup[GS]etter|noSuchMethod|proto)__))\b(?=\()
+    - match: \b(create|definePropert(y|ies)|freeze|get(OwnProperty(Descriptor|Names)|PrototypeOf)|hasOwnProperty|is(Array|Extensible|Frozen|Generator|Integer|PrototypeOf|Sealed)?|keys|preventExtensions|propertyIsEnumerable|seal|__(define[GS]etter|lookup[GS]etter|noSuchMethod|proto)__)\b(?=\()
       scope: support.function.object.js
       push:
         - meta_scope: meta.function-call.method.js
         - include: function-call-params
-    - match: \b(concat|exec|fromCharCode|get(TimezoneOffset|(UTC)?Day)|join|localeCompare|match|now|parse|search|split|stringify|test|to(DateString|Exponential|Fixed|Integer|ISOString|JSON|LocaleDateString|LocaleFormat|LocaleLowerCase|LocaleUpperCase|LocaleString|LocaleTimeString|LowerCase|Precision|String|Source|TimeString|UTCString|UpperCase)|UTC|valueOf|[sg]et(((UTC)?(Minutes|Milliseconds|Month|Seconds|Hours|Date|FullYear)|Time)))\b(?=\()
+    - match: \b(concat|exec|fromCharCode|get(TimezoneOffset|(UTC)?Day)|join|localeCompare|match|now|parse|search|split|test|to(DateString|Exponential|Fixed|Integer|ISOString|JSON|LocaleDateString|LocaleFormat|LocaleLowerCase|LocaleUpperCase|LocaleString|LocaleTimeString|LowerCase|Precision|String|Source|TimeString|UTCString|UpperCase)|UTC|valueOf|[sg]et(((UTC)?(Minutes|Milliseconds|Month|Seconds|Hours|Date|FullYear)|Time)))\b(?=\()
       scope: support.function.library.js
       push:
         - meta_scope: meta.function-call.method.js
@@ -1323,7 +1318,7 @@ contexts:
       scope: support.class.error.js
     - match: \b(window)\b
       scope: support.type.object.global.js
-    - match: \b(Intl|JSON|Math)\b
+    - match: \b(Intl)\b
       scope: support.type.object.library.js
     - match: \b((de|en)codeURI(Component)?|(un)?eval|is(Finite|NaN)|parse(Int|Float))\b
       scope: support.function.js
@@ -1347,18 +1342,16 @@ contexts:
   support:
     - match: \bdebugger\b
       scope: keyword.other.js
-    - match: \b(ByteArray|Pkg|System)\b
-      scope: support.module.gjs.js
-    - match: \b(process)(?:(\.)(arch|argv|config|connected|env|execArgv|execPath|exitCode|mainModule|pid|platform|release|stderr|stdin|stdout|title|version|versions))?\b
+    - match: \b(JSON)(?:(\.)(parse|stringify))?\b
       captures:
-        1: support.type.object.process.js
+        1: support.type.object.json.js
         2: punctuation.accessor.js
-        3: support.type.object.process.js
-    - match: \b(exports|module(?:(\.)(exports|id|filename|loaded|parent|children)))?\b
+        3: support.function.json.js
+    - match: \b(Math)(?:(\.)(asin|acos|atan2?|abs|ceil|cos|exp|floor|log|min|max|pow|round|random|sin|sqrt|tan))?\b
       captures:
-        1: support.type.object.module.js
+        1: support.type.object.math.js
         2: punctuation.accessor.js
-        3: support.type.object.module.js
+        3: support.function.math.js
     - match: \b(ARGV|imports)\b
       scope: support.type.object.gjs.js
 
