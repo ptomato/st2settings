@@ -27,7 +27,10 @@
                 "args": [],
                 "excludes": [],
                 "extra_flags": "-DGJS_COMPILATION -std=c++11",
-                "include_dirs": []
+                "include_dirs": [
+                    ".",
+                    ".."
+                ]
             },
             "csslint": {
                 "@disable": false,
