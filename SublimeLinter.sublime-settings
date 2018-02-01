@@ -26,7 +26,7 @@
                 "@disable": false,
                 "args": [],
                 "excludes": [],
-                "extra_flags": "-DGJS_COMPILATION -std=c++11",
+                "extra_flags": "-DGJS_COMPILATION -std=c++11 -DDEBUG -DJS_CODEGEN_X64",
                 "include_dirs": [
                     ".",
                     ".."
