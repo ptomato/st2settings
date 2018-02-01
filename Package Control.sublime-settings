@@ -20,6 +20,7 @@
 		"Package Control",
 		"PackageDev",
 		"Pretty JSON",
+		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-clang",
@@ -32,7 +33,6 @@
 		"SublimeLinter-pyyaml",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
-		"Syntax Highlighting for Sass",
 		"ToggleQuotes",
 		"TrailingSpaces",
 		"Vala-TMBundle"
