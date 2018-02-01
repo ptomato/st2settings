@@ -40,11 +40,9 @@
                 "ignore": "",
                 "warnings": ""
             },
-            "jscs": {
+            "eslint": {
                 "@disable": false,
-                "args": [
-                    "--esnext"
-                ],
+                "args": [],
                 "excludes": []
             },
             "jshint": {
