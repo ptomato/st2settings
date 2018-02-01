@@ -55,11 +55,11 @@
                 "excludes": [],
                 "strict": true
             },
-            "pep8": {
+            "pycodestyle": {
                 "@disable": false,
                 "args": [],
                 "excludes": [],
-                "ignore": "E127,E128,E129,E501",
+                "ignore": "",
                 "max-line-length": null,
                 "select": ""
             },

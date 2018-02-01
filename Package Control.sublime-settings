@@ -29,7 +29,7 @@
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
-		"SublimeLinter-pep8",
+		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
