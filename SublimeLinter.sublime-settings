@@ -90,13 +90,15 @@
         "passive_warnings": false,
         "paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/Users/ptomato/anaconda3/bin"
+            ],
             "windows": []
         },
         "python_paths": {
             "linux": [],
             "osx": [
-                "/Users/fliep/Library/Enthought/Canopy_32bit/User/bin/"
+                "/Users/ptomato/anaconda3/bin/"
             ],
             "windows": []
         },
