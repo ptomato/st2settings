@@ -1,125 +1,51 @@
 {
-    "user": {
-        "@python": "3",
-        "debug": false,
-        "delay": 0.25,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/Material Theme/extras/SublimeLinter/Material-Theme.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "annotations": {
-                "@disable": false,
-                "args": [],
-                "errors": [
-                    "FIXME"
-                ],
-                "excludes": [],
-                "warnings": [
-                    "TODO",
-                    "README",
-                    "FIXME",
-                    "COMPAT"
-                ]
-            },
-            "clang": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "extra_flags": "-DGJS_COMPILATION -std=c++11 -DDEBUG -DJS_CODEGEN_X64",
-                "include_dirs": [
-                    ".",
-                    ".."
-                ]
-            },
-            "csslint": {
-                "@disable": false,
-                "args": [],
-                "errors": "",
-                "excludes": [],
-                "ignore": "",
-                "warnings": ""
-            },
-            "eslint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "json": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "strict": true
-            },
-            "pycodestyle": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "ignore": "",
-                "max-line-length": null,
-                "select": ""
-            },
-            "pyflakes": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "rubocop": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "ruby": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "yamllint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            }
-        },
-        "mark_style": "squiggly underline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [
-                "/Users/ptomato/anaconda3/bin"
+    "debug": true,
+    "gutter_theme": "Packages/Material Theme/extras/SublimeLinter/Material-Theme.gutter-theme",
+    "linters": {
+        "annotations": {
+            "disable": false,
+            "args": [],
+            "errors": [
+                "FIXME"
             ],
-            "windows": []
+            "excludes": [],
+            "warnings": [
+                "TODO",
+                "README",
+                "FIXME",
+                "COMPAT"
+            ]
         },
-        "python_paths": {
-            "linux": [],
-            "osx": [
-                "/Users/ptomato/anaconda3/bin/"
-            ],
-            "windows": []
+        "jshint": {
+            "disable": true,
         },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "javascript (gjs)": "javascript",
-            "php": "html",
-            "python django": "python"
-        },
-        "tooltip_fontsize": "1rem",
-        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
-        "tooltip_theme_excludes": [],
-        "tooltips": false,
-        "use_current_shell_path": false,
-        "warning_color": "DDB700",
-        "wrap_find": true
+        "clang": {
+            "disable": false,
+            "args": [],
+            "excludes": [],
+            "extra_flags": "-DGJS_COMPILATION -std=c++11 -DDEBUG -DJS_CODEGEN_X64",
+            "include_dirs": [
+                ".",
+                ".."
+            ]
+        }
+    },
+    "paths": {
+        "linux": [],
+        "osx": [
+            "/Users/ptomato/anaconda3/bin"
+        ],
+        "windows": []
+    },
+    "syntax_map": {
+        "html (django)": "html",
+        "html (rails)": "html",
+        "html 5": "html",
+        "javascript (babel)": "javascript",
+        "javascript (gjs)": "javascript",
+        "magicpython": "python",
+        "php": "html",
+        "python django": "python",
+        "pythonimproved": "python"
     }
 }
