@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+get ${1:prop}() {
+    return this._${2:${1/_(\w)/\u\1/g}};
+}
+
+set $1(value) {
+    if ('_$2' in this && this._$2 === value)
+        return;
+    this._$2 = value;
+    this.notify('${3:${1/_/-/g}}');
+}
+]]></content>
+    <tabTrigger>prop</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

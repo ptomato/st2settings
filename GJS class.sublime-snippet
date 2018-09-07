@@ -1,13 +1,11 @@
 <snippet>
     <content><![CDATA[
-const ${1:ClassName} = new Lang.Class({
-    Name: '${1}',
+const ${1:ClassName} = GObject.registerClass({
     GTypeName: '${2:$1}',
-    Extends: ${3:GObject.Object},
-
-    _init: function (props={}) {
-        this.parent(props);
-    },
+}, class ${1} extends ${3:GObject.Object} {
+    _init(props = {}) {
+        super._init(props);
+    }
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
