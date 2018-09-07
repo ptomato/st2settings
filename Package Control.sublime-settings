@@ -23,7 +23,7 @@
 		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
-		"SublimeLinter-contrib-clang",
+		"SublimeLinter-clang",
 		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-eslint",
