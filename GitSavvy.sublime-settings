@@ -1,0 +1,8 @@
+// Settings in here override those in "GitSavvy/GitSavvy.sublime-settings",
+
+{
+    "pedantic_commit_first_line_length": 50,
+    "pedantic_commit_message_line_length": 76,
+    // Already have status from GitGutter
+    "git_status_in_status_bar": false
+}
