@@ -1,4 +1,5 @@
 {
     "non_blocking": true,
-    "show_markers_on_untracked_file": true
+    "show_markers_on_untracked_file": true,
+    "show_line_annotation": false
 }
