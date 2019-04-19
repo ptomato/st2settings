@@ -28,6 +28,11 @@
                 ".",
                 ".."
             ]
+        },
+        "yaml": {
+            "disable": false,
+            "args": [],
+            "excludes": []
         }
     },
     "paths": {
