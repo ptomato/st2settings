@@ -16,9 +16,6 @@
                 "COMPAT"
             ]
         },
-        "jshint": {
-            "disable": true,
-        },
         "clang": {
             "disable": false,
             "args": [],

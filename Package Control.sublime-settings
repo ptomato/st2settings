@@ -26,7 +26,6 @@
 		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-eslint",
-		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
