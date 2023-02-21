@@ -77,7 +77,6 @@
 	"font_face": "Hack",
 	"ignored_packages":
 	[
-		"Markdown",
 		"Vintage"
 	],
 	"indent_guide_options":
