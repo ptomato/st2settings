@@ -93,7 +93,8 @@
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
-		80
+		80,
+		120
 	],
 	"theme": "Material-Theme-Lighter.sublime-theme",
 	"translate_tabs_to_spaces": true
