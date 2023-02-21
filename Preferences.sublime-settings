@@ -27,6 +27,7 @@
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Tango.tmTheme",
+	"detect_indentation": false,
 	"file_exclude_patterns":
 	[
 		"*.a",

@@ -5,5 +5,5 @@
 		"h"
 	],
 	"indent_to_bracket": true,
-	"tab_size": 2
+	"detect_indentation": false
 }
