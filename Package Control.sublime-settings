@@ -6,15 +6,15 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Autotools",
+		"ayu",
 		"EditorConfig",
 		"GitGutter",
 		"HexViewer",
 		"InsertDate",
 		"JsPrettier",
 		"MarkdownEditing",
-		"Material Theme",
-		"Oblivion Color Scheme",
 		"Package Control",
 		"PackageDev",
 		"SCSS",
