@@ -25,6 +25,10 @@
                 ".."
             ]
         },
+        "rust": {
+            "disable": false,
+            "use-cargo": true
+        },
         "yaml": {
             "disable": false,
             "args": [],

@@ -17,6 +17,8 @@
 		"MarkdownEditing",
 		"Package Control",
 		"PackageDev",
+		"Rust Enhanced",
+		"RustFmt",
 		"SCSS",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
@@ -30,6 +32,7 @@
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"ToggleQuotes",
+		"TOML",
 		"TrailingSpaces",
 		"Vala-TMBundle"
 	]
